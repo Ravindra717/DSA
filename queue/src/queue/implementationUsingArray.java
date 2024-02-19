@@ -69,11 +69,11 @@ public class implementationUsingArray {
 
 	public static void main(String[] args) {
 		queue Q1 = new queue(6);
-//		Q1.enqueue(10);
-//		Q1.enqueue(1000);
-//		Q1.enqueue(1000000);
-//		System.out.println(Q1.dequeue());
-//		System.out.println(Q1.dequeue());
+		Q1.enqueue(10);
+		Q1.enqueue(1000);
+		Q1.enqueue(1000000);
+		System.out.println(Q1.dequeue());
+		System.out.println(Q1.dequeue());
 		System.out.println(Q1.getFront());
 		System.out.println(Q1.getRear());
 		System.out.println(Q1.isEmpty());
