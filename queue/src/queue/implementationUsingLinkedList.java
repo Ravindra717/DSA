@@ -76,12 +76,12 @@ public class implementationUsingLinkedList {
 		Q2.enqueue(10);
 		Q2.enqueue(20);
 		Q2.enqueue(30);
-//		System.out.println(Q2.dequeue());
-//		System.out.println(Q2.dequeue());
-//		System.out.println(Q2.dequeue());
-//		System.out.println(Q2.dequeue());
-//		System.out.println(Q2.getFront());
-//		System.out.println(Q2.getRear());
+		System.out.println(Q2.dequeue());
+		System.out.println(Q2.dequeue());
+		System.out.println(Q2.dequeue());
+		System.out.println(Q2.dequeue());
+		System.out.println(Q2.getFront());
+		System.out.println(Q2.getRear());
 		Q2.display();
 	}
 
